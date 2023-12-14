@@ -3,46 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/model1.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+    <title>challenges2</title>
 </head>
 <body>
-    <div class="countiner">
-        <div class="left">
-            <h2>Your Result </h2> 
-            <div class="Result">
-                <h1>76</h1>
-                <h5>of 100</h5>
-            </div>
-            <h3>Great</h3>  
-           <h4>You scored higher than 65% of the people who have taken these tests.</h4> 
-        </div>
-        <div class="right">
-            <h1>Summary</h1>
-                <div class="Material">  
-                    <div class="one">
-                        <span class="red"> <img src="assets/model 1/icon-reaction.svg" title="reaction">reaction</span>
-                        <span>80 <span class="percent"> / 100</span>
-                    </div>
-                        <div class="two">
-                        <span class="memory"> <img src="assets/model 1/icon-memory.svg" title="memory">memory</span>
-                        <span>92 <span class="percent"> / 100</span>
-                     </div>
-                        <div class="tree">
-                        <span class="verbal"> <img src="assets/model 1/icon-verbal.svg" title="verbal">verbal</span>
-                        <span>61 <span class="percent"> / 100</span>
-                     </div>
-                        <div class="four">
-                        <span class="visual"> <img src="assets/model 1/icon-visual.svg" title="visual">visual</span>
-                        <span>72 <span class="percent"> / 100</span>
-                    </div>            
+     <div class="card">
+        <div class="continer">
+            <section class="result">
+                <h3 class="title">your result</h3>
+                <div class="circle">
+                    <h1>76</h1>
+                    <p>of 100</p>
                 </div>
-            <button>Continue</bouton>
+                <b>Great</b>
+                <info>You scored higher than 65% of the people who have taken these tests.</info>
+            </section>
+            <section class="summary">
+                <h3 class="title">summary</h3>
+                    <div class="rows">
+                        <div class="row">
+                            <div class="badge">
+                                <img src="assets/model 1/icon-reaction.svg" alt="icons">
+                                <b>Reaction</b>
+                            </div>
+                            <p><b>80</b>/100</p>
+                        </div>
+                        <div class="row">
+                            <div class="badge">
+                                <img src="assets/model 1/icon-memory.svg" alt="icons">
+                                <b>Memory</b>
+                            </div>
+                            <p><b>92</b>/100</p>
+                        </div>
+                        <div class="row">
+                            <div class="badge">
+                            <img src="assets/model 1/icon-verbal.svg" alt="icons">
+                            <b>Verbal</b>
+                        </div>
+                        <p><b>61</b>/100</p>
+                        </div>         
+                        <div class="row">
+                            <div class="badge">
+                                <img src="assets/model 1/icon-visual.svg"icons">
+                                <b>Visual</b>
+                            </div>
+                            <p><b>72</b>/100</p>
+                        </div>
+                    </div> 
+                
+                <button>Continue</button>
+            </section>
         </div>
-    </div>
-    
+     </div>
 </body>
 </html>
